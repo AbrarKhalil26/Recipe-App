@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,#root{
+  min-height: 100vh;
+}
+
+:root {
+  --orange: #eb4a36;
+  --paragraph: #8c8c8c;
+  --default-border: 1px solid #e0e0e0;
+}
+/* 
+.logo{
+  font-family: "Leckerli One", cursive;
+  color: #eb4a36 !important;
+  font-size: 1.6rem;
+  text-decoration: none;
+} */
+/* p{
+  color: #8c8c8c;
+  font-size: 15px;
+  margin: 0;
+}
+p:hover,
+a:hover{
+  color: #eb4a36;
+}
+a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: gray;
+}
+.svg-inline--fa:hover{
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h6{
+  color: #606060;
+}
+.general-icon{
+  width: 15px;
+  height: 15px;
+  line-height: 2.7rem;
+  transition: 0.3s all;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+}
+.container{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+@media (max-width: 1047px) {
+  .container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 843px) {
+  .container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (min-width: 600px){
+  .css-rfxxl4-MuiToolbar-root {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+}
+.subscribe .MuiInputBase-root{
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.subscribe input::placeholder{
+  color: white;
+} */

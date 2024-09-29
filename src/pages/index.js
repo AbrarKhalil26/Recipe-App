@@ -1,0 +1,11 @@
+export { default as Home } from './Home';
+export { default as Recipe } from './Recipe';
+export { default as Search } from './Search';
+export { default as Contact } from './Contact';
+export { default as Signin } from './auth/Signin';
+export { default as Signup } from './auth/Signup';
+export { default as ForgetPassword } from './auth/ForgetPassword';
+export { default as MyFavorite } from './MyFavorite';
+export { default as Settings } from './Settings';
+export { default as Profile } from './Profile';
+// export { default as NotFound } from './NotFound';

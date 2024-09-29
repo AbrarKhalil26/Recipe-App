@@ -1,0 +1,87 @@
+.myContainer {
+  @apply mx-2 @md:mx-8 p-8 px-3 @4xl:px-10;
+}
+
+.myGrid {
+  @apply grid grid-cols-1 @xl:grid-cols-2 @3xl:grid-cols-3 @5xl:grid-cols-4 gap-10;
+}
+
+.logo {
+  @apply text-orange font-bold font-cursive w-fit;
+}
+
+.btn-primary {
+  @apply border border-gray-400 text-gray-500 py-2 px-4 rounded-full;
+}
+
+.btn-secondary {
+  @apply border border-orange bg-orange text-white py-2 px-8 rounded-full;
+}
+
+.general-icon {
+  @apply rounded-full cursor-pointer p-2 w-11 h-11 text-xl flex items-center justify-center;
+}
+
+.form-control {
+  @apply border border-white rounded-full px-4 py-2 w-full bg-orange text-white outline-0;
+}
+
+.form-control::placeholder {
+  @apply text-white;
+}
+
+textarea {
+  @apply border border-white rounded-xl px-4 py-2 w-full h-44 bg-orange text-white outline-0;
+}
+
+textarea::placeholder {
+  @apply text-white;
+}
+
+@keyframes moveToRight {
+  0% {
+    transform: translateX(-95%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes Bounce {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    opacity: 0.5;
+  }
+}
+
+.pagination {
+  @apply flex justify-center items-center mx-auto;
+}
+
+.page-item-meals {
+  @apply text-gray-500 p-2 cursor-pointer;
+}
+
+.active-pagination {
+  @apply text-orange font-semibold p-1 rounded-md;
+}
+
+.steps::before {
+  @apply content-[''];
+  @apply absolute top-1/2 left-0  w-full h-px rounded-full bg-gray-200;
+}
+
+.avatar {
+  @apply w-12 h-12 rounded-full;
+}
+
+.toast::after {
+  @apply content-[''];
+  @apply absolute bottom-0 right-0 w-full h-1.5 bg-green-600;
+}
