@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Recipe-App/static/css/main.8a9c0762.css",
-    "main.js": "/Recipe-App/static/js/main.d358f2ae.js",
+    "main.js": "/Recipe-App/static/js/main.6879ddf6.js",
     "static/media/Chef_Man_1920x1080.mp4": "/Recipe-App/static/media/Chef_Man_1920x1080.2c3e12ee4be49fd29ff7.mp4",
     "static/media/forget-pass.jpg": "/Recipe-App/static/media/forget-pass.741c01d7b3b803ce4a66.jpg",
     "static/media/signup.jpeg": "/Recipe-App/static/media/signup.9b4296d47bf3475a216c.jpeg",
     "static/media/singin.jpeg": "/Recipe-App/static/media/singin.8932bf2ee52ccc140c4f.jpeg",
     "index.html": "/Recipe-App/index.html",
     "main.8a9c0762.css.map": "/Recipe-App/static/css/main.8a9c0762.css.map",
-    "main.d358f2ae.js.map": "/Recipe-App/static/js/main.d358f2ae.js.map"
+    "main.6879ddf6.js.map": "/Recipe-App/static/js/main.6879ddf6.js.map"
   },
   "entrypoints": [
     "static/css/main.8a9c0762.css",
-    "static/js/main.d358f2ae.js"
+    "static/js/main.6879ddf6.js"
   ]
 }
