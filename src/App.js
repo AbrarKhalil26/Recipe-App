@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import {Home , Recipe, Search, Contact, Signin, Signup, MyFavorite, ForgetPassword, Settings, Profile} from './pages';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUserDataFromFirestore, selectIsLoggedIn } from './redux/slice/authSlice';
@@ -22,7 +22,7 @@ function App() {
   console.log('ToastOpen', isToastOpen);
 
   return (
-    <BrowserRouter>
+    <Router>
       <div className='@container min-h-screen'>
         {isToastOpen && <Toast type={toast.type} message={toast.message}/>}
         <Routes>
@@ -38,7 +38,7 @@ function App() {
           <Route path='/profile' element={<Profile/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
